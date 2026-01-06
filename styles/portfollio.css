@@ -194,3 +194,59 @@ header img{
     line-height: 20px;
     letter-spacing: 1px;
 }
+
+
+/* .............a-summary-of-my-resume.............. */
+#a-summary-of-my-resume{
+    margin: 130px 230px;
+}
+#a-summary-of-my-resume h2{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+#a-summary-of-my-resume .about-cv{
+    display: flex;
+}
+#a-summary-of-my-resume .about-cv .first-block{
+    margin-right: 10px;
+}
+#a-summary-of-my-resume .about-cv .second-block{
+    margin-left: 10px;
+}
+#a-summary-of-my-resume .about-cv h2{
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+#a-summary-of-my-resume .about-cv h3{
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #474747;
+}
+#a-summary-of-my-resume .about-cv h5{
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-size: small;
+    color: #474747;
+}
+#a-summary-of-my-resume .about-cv p{
+    font-size: small;
+    color: #474747;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+#a-summary-of-my-resume .about-cv hr{
+    color: #d1d1d1;
+}
+#a-summary-of-my-resume .download-cv{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 16px;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
