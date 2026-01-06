@@ -249,4 +249,57 @@ header img{
     display: block;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+/* ...........Footer Start........... */
+#footer{
+    background-color: #FFF8F3;
+}
+#footer .added-two-block{
+    display: flex;
+    padding: 130px 230px;
+}
+#footer .added-two-block h2{
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+#footer .added-two-block p{
+    padding-right: 250px;
+    font-size: small;
+    color: #474747;
+    margin-bottom: 30px;
+}
+#footer .added-two-block i{
+    margin-right: 20px;
+    color: #FD6E0A;
+}
+#footer .added-two-block form [type="text"], [type="email"]{
+    width: 461px;
+    height: 64px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+#footer .added-two-block form textarea{
+    width: 461px;
+    height: 180px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    display: block;
+}
+#footer .added-two-block form [type="submit"]{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 16px 39PX;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
 }
