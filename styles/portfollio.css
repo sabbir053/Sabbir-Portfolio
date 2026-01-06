@@ -8,7 +8,12 @@
     font-optical-sizing: auto;
 }
 header{
-    background-color: #FFF8F3;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-size: 75px auto, 40% auto;
+    background-repeat: no-repeat;
+    background-position: 
+        left 60px top 30px,
+        right bottom; 
 }
 .bb-color{
     color: #FD6E0A;
@@ -17,7 +22,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 40px 230px;
 }
 header nav div h2{
     font-size: 45px;
@@ -58,4 +63,52 @@ header img{
     padding-left: 20px;
 }
 
-/* ..................................... */
+/* ...........Hero section.......... */
+
+#banner{
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .banner-content h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #474747;
+}
+#banner .banner-content h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+#banner .banner-content p{
+    font-size: small;
+    color: #474747;
+    padding-right: 250px;
+    padding-bottom: 30px;
+}
+#banner .banner-content .download-info{
+    display: flex;
+}
+#banner .banner-content .download-info button{
+    margin-right: 30px;
+}
+#banner .banner-content .download-cv{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 16px;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+}
+#banner .banner-content .contact{
+    border: 1px solid #FD6E0A;
+    background-color: #fff;
+    padding: 16px;
+    color: #FD6E0A;
+    font-size: medium;
+    border-radius: 5px;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
