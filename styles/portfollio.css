@@ -26,6 +26,7 @@ header nav{
 }
 header nav div h2{
     font-size: 45px;
+    cursor: pointer;
 }
 header nav ul{
     display: flex;
@@ -91,6 +92,7 @@ header img{
 }
 #banner .banner-content .download-info button{
     margin-right: 30px;
+    cursor: pointer;
 }
 #banner .banner-content .download-cv{
     background-color: #FD6E0A;
@@ -99,6 +101,7 @@ header img{
     color: white;
     font-size: medium;
     border-radius: 5px;
+    cursor: pointer;
 }
 #banner .banner-content .contact{
     border: 1px solid #FD6E0A;
@@ -107,6 +110,7 @@ header img{
     color: #FD6E0A;
     font-size: medium;
     border-radius: 5px;
+    cursor: pointer;
 }
 #banner .banner-image img{
     max-width: 585px;
@@ -250,6 +254,7 @@ header img{
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 100px;
+    cursor: pointer;
 }
 
 
@@ -275,6 +280,7 @@ header img{
 #footer .added-two-block i{
     margin-right: 20px;
     color: #FD6E0A;
+    cursor: pointer;
 }
 #footer .added-two-block form [type="text"], [type="email"]{
     width: 461px;
@@ -302,4 +308,5 @@ header img{
     color: white;
     font-size: medium;
     border-radius: 5px;
+    cursor: pointer;
 }
